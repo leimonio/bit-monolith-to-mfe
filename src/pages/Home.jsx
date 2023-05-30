@@ -1,6 +1,7 @@
 import { Box } from '@chakra-ui/react'
 
-import { Banner } from '../components/Banners/Banner'
+// import { Banner } from '../components/Banners/Banner'
+import { Banner } from '@konstantinos-bit/webinar-mfe.mfes.banner'
 import { HomeContent } from '../components/HomeContent/HomeContent'
 import { Footer } from '../components/Footer/Footer'
 import { cards } from '../db'
