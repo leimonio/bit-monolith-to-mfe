@@ -1,5 +1,5 @@
 {
-  "name": "webinar-monolith",
+  "name": "tvapple-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,9 +27,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "postinstall": "bit link && bit compile"
   },
@@ -52,6 +52,8 @@
     ]
   },
   "devDependencies": {
-    "prettier": "2.8.7"
+    "@teambit/cloud-providers.deployers.netlify": "^0.1.19",
+    "prettier": "2.8.7",
+    "react-app-rewired": "^2.2.1"
   }
 }

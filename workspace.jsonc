@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "konstantinos-bit.webinar-mfe"
+    "defaultScope": "konstantinos-bit.webinar-mfe-test"
   },
   /**
    * main configuration for component dependency resolution.
@@ -60,5 +60,5 @@
       // "teambit.react/react": { }
     }
   },
-  "konstantinos-bit.webinar-mfe/mfes/banner": {}
+  "konstantinos-bit.webinar-mfe-test/mfes/banner": {}
 }
