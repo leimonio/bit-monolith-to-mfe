@@ -11,24 +11,9 @@
 {
     "mfes/banner": {
         "scope": "",
-        "version": "",
+        "version": "0.0.5",
         "mainFile": "index.ts",
-        "rootDir": "webinar-mfe/mfes/banner",
-        "config": {
-            "teambit.react/react-env@0.0.65": {},
-            "teambit.envs/envs": {
-                "env": "teambit.react/react-env"
-            },
-            "teambit.dependencies/dependency-resolver": {
-                "policy": {
-                    "dependencies": {
-                        "@emotion/react": "11.11.0",
-                        "@emotion/styled": "11.11.0",
-                        "framer-motion": "10.12.16"
-                    }
-                }
-            }
-        }
+        "rootDir": "webinar-mfe-test/mfes/banner"
     },
     "$schema-version": "15.0.0"
 }

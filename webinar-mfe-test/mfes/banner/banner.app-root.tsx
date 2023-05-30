@@ -11,12 +11,3 @@ root.render(
     <Banner cards={cards} />
   </ChakraProvider>
 )
-
-/**
- * uncomment to render the app with routing (react-router-dom)
- */
-// root.render(
-//   <BrowserRouter>
-//     <Banner />
-//   </BrowserRouter>
-// );
